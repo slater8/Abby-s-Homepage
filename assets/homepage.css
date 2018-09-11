@@ -1,0 +1,16 @@
+.main {
+  display: flex;
+}
+
+.container{
+  flex-direction: row;
+}
+
+ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+.active{
+  background-color: 	#D3D3D3;
+}
