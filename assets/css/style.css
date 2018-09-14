@@ -1,0 +1,67 @@
+
+/* NAVIGATION */
+body{
+  background-color:	#4D7594;
+}
+ul li {
+  list-style-type: none;
+}
+nav ul {
+  display: flex;
+  align-items: stretch;
+  justify-content: space-between;
+  width: 50%;
+  margin: auto;
+  padding: 15px;
+  height: 18px;
+  overflow: hidden;
+  background-color:	#849DB2;
+}
+nav ul li {
+  flex-direction: row;
+  justify-content: center;
+  display: block;
+  flex: 0 1 auto;
+  color: white;
+  text-align: left;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-family: "Julius Sans One";
+  font-style: normal;
+}
+
+section#nav li a:hover {
+  background-color: #F0D41D;
+}
+h1{
+  color: #F0E07D;
+  font-family: "Julius", sans-serif;
+}
+h2 {
+  color: #F0B4D9;
+  text-align: center;
+  font-family: "Julius", sans-serif;
+  font-style: normal;
+}
+IMG.displayed{
+  margin-left: auto;
+  margin-right: auto;
+}
+section#nav{
+  display: grid;
+  grid-template-columns: 40px 50px auto 50px 40px;
+  grid-auto-rows: 60px 100px auto 100px 60px;
+  grid-column: 3 / 6;
+  grid-row: 2 / 4;
+}
+h3 {
+  color: #CBD1D6;
+}
+figure {
+  display: table;
+  border-top: none;
+}
+figcaption {
+  display: table-caption;
+  caption-side: top;
+}
