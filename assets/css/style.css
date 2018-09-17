@@ -3,6 +3,10 @@
 body{
   background-color:	#4D7594;
 }
+main {
+  grid-template-columns: 100px 120px auto 120px 100px;
+  grid-template-rows: 100px 120px auto 120px 100px;
+}
 ul li {
   list-style-type: none;
 }
@@ -13,7 +17,7 @@ nav ul {
   width: 50%;
   margin: auto;
   padding: 15px;
-  height: 18px;
+  height: 30px;
   overflow: hidden;
   background-color:	#849DB2;
 }
@@ -26,34 +30,29 @@ nav ul li {
   text-align: left;
   padding: 14px 16px;
   text-decoration: none;
-  font-family: "Julius Sans One";
+  font-family: Roboto;
   font-style: normal;
 }
 
 section#nav li a:hover {
-  background-color: #F0D41D;
+  background-color: #F0E6AF;
 }
 h1{
-  color: #F0E07D;
-  font-family: "Julius", sans-serif;
+  color: #F0E6AF;
+  font-family: Julius Sans One;
+  text-align: center;
 }
 h2 {
-  color: #F0B4D9;
+  color: #F0E6AF;
   text-align: center;
-  font-family: "Julius", sans-serif;
+  font-family: Raleway;
   font-style: normal;
 }
 IMG.displayed{
   margin-left: auto;
   margin-right: auto;
 }
-section#nav{
-  display: grid;
-  grid-template-columns: 40px 50px auto 50px 40px;
-  grid-auto-rows: 60px 100px auto 100px 60px;
-  grid-column: 3 / 6;
-  grid-row: 2 / 4;
-}
+
 h3 {
   color: #CBD1D6;
 }
@@ -61,7 +60,63 @@ figure {
   display: table;
   border-top: none;
 }
-figcaption {
-  display: table-caption;
-  caption-side: top;
+
+section#nav {
+  grid-column-start: 2;
+  grid-column-end: 5;
+  grid-row-start: 4;
+  grid-row-end: 5;
+}
+
+section#headshot {
+  grid-column-start: 2;
+  grid-column-end: 4;
+  grid-row-start: 3;
+  grid-row-end: 5;
+}
+
+section#bio {
+  grid-column-start: 3;
+  grid-column-end: 5;
+  grid-row-start: 4;
+  grid-row-end: 6;
+}
+
+h1 {
+  grid-column-start: 2;
+}
+
+section#bio {
+  font-family: Roboto;
+  display: flex;
+  align-items: stretch;
+  justify-content: space-between;
+  width: 30%;
+  margin: auto;
+  padding: 15px;
+  height: 130px;
+  overflow: hidden;
+  background-color:	#849DB2;
+}
+img#headshot {
+  width: 25%;
+}
+img#grandparents {
+  width: 25%;
+}
+
+img#bridge {
+  width: 25%;
+}
+img#futurehouse{
+  width: 25%;
+}
+img#forest {
+  width: 25%;
+}
+img#handshake {
+  width: 25%;
+}
+section#body {
+  color: #CBD1D6;
 }
