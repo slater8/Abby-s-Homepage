@@ -3,10 +3,7 @@
 body{
   background-color:	#4D7594;
 }
-main {
-  grid-template-columns: 100px 120px auto 120px 100px;
-  grid-template-rows: 100px 120px auto 120px 100px;
-}
+
 ul li {
   list-style-type: none;
 }
@@ -14,7 +11,7 @@ nav ul {
   display: flex;
   align-items: stretch;
   justify-content: space-between;
-  width: 50%;
+  width: 65%;
   margin: auto;
   padding: 15px;
   height: 30px;
@@ -34,18 +31,18 @@ nav ul li {
   font-style: normal;
 }
 
-section#nav li a:hover {
-  background-color: #F0E6AF;
+nav li a:hover {
+  background-color: white;
 }
 h1{
   color: #F0E6AF;
-  font-family: Julius Sans One;
+  font-family: Roboto;
   text-align: center;
 }
 h2 {
   color: #F0E6AF;
   text-align: center;
-  font-family: Raleway;
+  font-family: Roboto;
   font-style: normal;
 }
 IMG.displayed{
@@ -55,56 +52,39 @@ IMG.displayed{
 
 h3 {
   color: #CBD1D6;
+  text-align: center;
 }
 figure {
   display: table;
   border-top: none;
 }
-
-section#nav {
-  grid-column-start: 2;
-  grid-column-end: 5;
-  grid-row-start: 4;
-  grid-row-end: 5;
+p#bio {
+  color: #F0E6AF;
 }
-
-section#headshot {
-  grid-column-start: 2;
-  grid-column-end: 4;
-  grid-row-start: 3;
-  grid-row-end: 5;
-}
-
-section#bio {
-  grid-column-start: 3;
-  grid-column-end: 5;
-  grid-row-start: 4;
-  grid-row-end: 6;
-}
-
-h1 {
-  grid-column-start: 2;
-}
-
-section#bio {
+p#bio {
   font-family: Roboto;
   display: flex;
   align-items: stretch;
   justify-content: space-between;
   width: 30%;
-  margin: auto;
-  padding: 15px;
+  margin-right: 245px;
+  margin-left: auto;
+  padding: 0px;
   height: 130px;
   overflow: hidden;
-  background-color:	#849DB2;
+  background-color:	#4D7594;
 }
 img#headshot {
+  margin-left: auto;
+  margin-right: auto;
   width: 25%;
+  padding: 15px;
+  margin-left: 280px;
+  margin-right: auto;
 }
 img#grandparents {
   width: 25%;
 }
-
 img#bridge {
   width: 25%;
 }
@@ -119,4 +99,14 @@ img#handshake {
 }
 section#body {
   color: #CBD1D6;
+}
+div#headshot {
+  grid-column-start: 2;
+  grid-column-end: 4;
+}
+section#experience_body {
+  text-align: center;
+}
+section#education_body {
+  text-align: center;
 }
