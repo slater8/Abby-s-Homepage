@@ -1,5 +1,3 @@
-
-/* NAVIGATION */
 body{
   background-color:	#ECEEF2;
 }
@@ -7,6 +5,8 @@ body{
 ul li {
   list-style-type: none;
 }
+
+/*Navigation*/
 nav ul {
   display: flex;
   align-items: stretch;
@@ -30,13 +30,12 @@ nav ul li {
   font-family: Roboto;
   font-style: normal;
 }
-
 nav li a:hover {
   background-color: #FE9634;
 }
-section#port_body {
-  font-family: Roboto;
-}
+
+/*Headings*/
+
 h1 {
   color: #FE9634;
   font-family: Roboto;
@@ -48,20 +47,15 @@ h2 {
   font-family: Roboto;
   font-style: normal;
 }
-IMG.displayed{
-  margin-left: auto;
-  margin-right: auto;
-}
 
 h3 {
   color: #9C1F50;
   text-align: center;
   font-family: Roboto;
 }
-figure {
-  display: table;
-  border-top: none;
-}
+
+/*Sections*/
+
 p#bio {
   color: #ECEEF2;
   font-family: Roboto;
@@ -75,6 +69,24 @@ p#bio {
   overflow: hidden;
   background-color:	#B52350;
 }
+
+section#port_body {
+  font-family: Roboto;
+}
+
+section#experience_body {
+  text-align: center;
+  font-family: Roboto;
+  color: #091269;
+}
+section#education_body {
+  text-align: center;
+  font-family: Roboto;
+  color: #091269;
+}
+
+/*Images*/
+
 img#headshot {
   width: 25%;
   padding: 20px;
@@ -97,19 +109,16 @@ img#forest {
 img#handshake {
   width: 25%
 }
-
-section#experience_body {
-  text-align: center;
-  font-family: Roboto;
-  color: #091269;
-}
-section#education_body {
-  text-align: center;
-  font-family: Roboto;
-  color: #091269;
-}
 img#logo {
   width: 30%;
   margin-left: 440px;
+  margin-right: auto;
+}
+figure {
+  display: table;
+  border-top: none;
+}
+IMG.displayed{
+  margin-left: auto;
   margin-right: auto;
 }
