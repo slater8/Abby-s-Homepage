@@ -1,7 +1,7 @@
 
 /* NAVIGATION */
 body{
-  background-color:	#4D7594;
+  background-color:	#ECEEF2;
 }
 
 ul li {
@@ -14,16 +14,16 @@ nav ul {
   width: 65%;
   margin: auto;
   padding: 15px;
-  height: 30px;
+  height: 20px;
   overflow: hidden;
-  background-color:	#849DB2;
+  background-color:	#ECEEF2;
 }
 nav ul li {
   flex-direction: row;
   justify-content: center;
   display: block;
   flex: 0 1 auto;
-  color: white;
+  color: #B52350;
   text-align: left;
   padding: 14px 16px;
   text-decoration: none;
@@ -32,15 +32,18 @@ nav ul li {
 }
 
 nav li a:hover {
-  background-color: white;
+  background-color: #FB4D3E;
 }
-h1{
-  color: #F0E6AF;
+section#port_body {
+  font-family: Roboto;
+}
+h1 {
+  color: #FB4D3E;
   font-family: Roboto;
   text-align: center;
 }
 h2 {
-  color: #F0E6AF;
+  color: #091269;
   text-align: center;
   font-family: Roboto;
   font-style: normal;
@@ -51,7 +54,7 @@ IMG.displayed{
 }
 
 h3 {
-  color: #CBD1D6;
+  color: #9C1F50;
   text-align: center;
   font-family: Roboto;
 }
@@ -60,27 +63,22 @@ figure {
   border-top: none;
 }
 p#bio {
-  color: #F0E6AF;
-}
-p#bio {
+  color: #ECEEF2;
   font-family: Roboto;
   display: flex;
-  align-items: stretch;
-  justify-content: space-between;
-  width: 30%;
-  margin-right: 245px;
+  justify-content: center;
+  width: 45%;
+  margin-right: 315px;
   margin-left: auto;
-  padding: 0px;
-  height: 130px;
+  padding: 15px;
+  height: 65px;
   overflow: hidden;
-  background-color:	#4D7594;
+  background-color:	#B52350;
 }
 img#headshot {
-  margin-left: auto;
-  margin-right: auto;
   width: 25%;
-  padding: 15px;
-  margin-left: 280px;
+  padding: 25px;
+  margin-left: 440px;
   margin-right: auto;
 }
 img#grandparents {
@@ -98,18 +96,18 @@ img#forest {
 img#handshake {
   width: 25%;
 }
-section#body {
-  color: #CBD1D6;
-}
-div#headshot {
-  grid-column-start: 2;
-  grid-column-end: 4;
-}
 section#experience_body {
   text-align: center;
   font-family: Roboto;
+  color: #091269;
 }
 section#education_body {
   text-align: center;
   font-family: Roboto;
+  color: #091269;
+}
+img#logo {
+  width: 30%;
+  margin-left: 440px;
+  margin-right: auto;
 }
